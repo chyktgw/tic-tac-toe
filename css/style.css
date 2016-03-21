@@ -1,8 +1,48 @@
 #board {
   margin-top: 10px;
+
+}
+body{
+    font-family: 'Poiret One', cursive;
+    color: navy;
+    text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2{
+  font-size: 25px;
+}
+
+h3{
+  font-size: 20px;
 }
 
 .box {
-  border: 1px solid black;
+  border: 1px solid navy;
   height: 150px;
+  font-size: 130px;
+}
+
+.board {
+	border: 5px solid navy;
+}
+
+.xColor {
+  align: auto;
+  font-family: 'Waiting for the Sunrise', cursive;
+	color: #33cccc;
+}
+
+.oColor {
+  align: auto;
+  font-family: 'Waiting for the Sunrise', cursive;
+	color: #ff3333;
+}
+
+
+.btn-danger{
+  font-size: 30px;
+  background: navy;
 }
